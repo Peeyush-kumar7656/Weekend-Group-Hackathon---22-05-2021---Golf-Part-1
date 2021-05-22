@@ -1,3 +1,5 @@
+import React, { useEffect, useState } from "react";
+import "../styles/App.css";
 const App = () => {
     const [renderBall, setRenderBall] = useState(false);
     const [posi, setPosi] = useState(0);
